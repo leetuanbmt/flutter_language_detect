@@ -1,5 +1,5 @@
 import 'package:flutter_test/flutter_test.dart';
-import 'package:flutter_langdetect/utils/lang_profile.dart'; // The actual import path of the LangProfile class
+import 'package:flutter_language_detect/utils/lang_profile.dart'; // The actual import path of the LangProfile class
 
 void main() {
   group('LangProfileTest', () {
@@ -32,7 +32,8 @@ void main() {
       final profile = LangProfile(name: 'en');
       profile.add('a');
       profile.add(
-          ''); // Illegal (string's length of parameter must be between 1 and 3) but ignore
+        '',
+      ); // Illegal (string's length of parameter must be between 1 and 3) but ignore
       profile.add('abcd'); // as well
       expect(profile.freq['a'], 1);
       expect(profile.freq[''], isNull); // ignored

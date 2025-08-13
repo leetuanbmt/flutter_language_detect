@@ -1,4 +1,5 @@
-import 'package:flutter_langdetect/flutter_langdetect.dart' as langdetect;
+import 'package:flutter_language_detect/flutter_language_detect.dart'
+    as langdetect;
 
 void main() async {
   // `ensureInitialized` is needed once in your application when you use this library in the actual application.

@@ -1,5 +1,5 @@
 import 'package:flutter_test/flutter_test.dart';
-import 'package:flutter_langdetect/utils/unicode_block.dart'; // The actual import path of the UnicodeBlock enum and unicodeBlock function
+import 'package:flutter_language_detect/utils/unicode_block.dart'; // The actual import path of the UnicodeBlock enum and unicodeBlock function
 
 void main() {
   group('UnicodeBlockTest', () {
@@ -12,7 +12,9 @@ void main() {
       expect(unicodeBlock('\u2201'), UnicodeBlock.unicodeMathematicalOperators);
       expect(unicodeBlock('\u22FF'), UnicodeBlock.unicodeMathematicalOperators);
       expect(
-          unicodeBlock('\u2300'), UnicodeBlock.unicodeMiscellaneousTechnical);
+        unicodeBlock('\u2300'),
+        UnicodeBlock.unicodeMiscellaneousTechnical,
+      );
     });
   });
 }

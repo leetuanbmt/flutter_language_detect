@@ -1,7 +1,7 @@
 import 'package:flutter_test/flutter_test.dart';
-import 'package:flutter_langdetect/flutter_langdetect.dart';
+import 'package:flutter_language_detect/flutter_language_detect.dart';
 import 'package:flutter/widgets.dart';
-import 'package:flutter_langdetect/detector_factory.dart';
+import 'package:flutter_language_detect/detector_factory.dart';
 import 'package:logger/logger.dart';
 
 void main() {

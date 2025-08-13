@@ -1,11 +1,12 @@
-name: flutter_langdetect_example
-description: An example console application using the flutter_langdetect package.
+name: flutter_language_detect_example
+description: An example console application using the flutter_language_detect package.
 version: 1.0.0
 publish_to: none
 
 environment:
-  sdk: '>=2.12.0 <3.0.0'
+  sdk: ^3.7.2
+  flutter: "^3.29.3"
 
 dependencies:
-  flutter_langdetect:
+  flutter_language_detect:
     path: ../
